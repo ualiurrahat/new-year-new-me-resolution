@@ -74,6 +74,37 @@
     color: #444343;
     margin-bottom: 8px;
 }
-.failure-content{
+
+.failure-content {
     margin-top: 200px;
+}
+
+/* planning section styling  */
+.planning {
+    margin: 0 220px 120px 220px;
+    text-align: center;
+}
+
+.planning-title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plan-container {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
 }
