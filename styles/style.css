@@ -95,7 +95,7 @@
     display: flex;
     gap: 60px;
     justify-content: center;
-    
+
 }
 
 .plan-title {
@@ -107,4 +107,34 @@
     font-weight: 500;
     font-size: 25px;
     color: #737272;
+}
+
+/* gradient section */
+.gradient {
+    width: 1140px;
+    height: 300px;
+    margin: 0px 220px 130px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+    border-radius: 8px;
+}
+
+.gradient-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-right: 600px;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+
+.btn-call {
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    text-align: center;
+    border: 0;
+    height: 64px;
+    margin-top: 24px;
+    margin-left: 60px;
+    padding:20px 35px;
 }
